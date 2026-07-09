@@ -20,4 +20,7 @@ let age = 12
 /* non - primitive datatypes: */
 // object 
 
-console.table([typeof(name, age, null, undefined)])
+console.log([typeof(name)]) // we can use the paranthesis or skip it and directly write : (typeof name)
+console.log(typeof age) //we can use console.table([]) as well instead of console.log()
+console.log(typeof null)
+console.log(typeof undefined)
